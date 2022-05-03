@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:	1.26
-Release:	2
+Release:	3
 Summary:        Library to apply JSON patches according to RFC 6902
 Group:          Development/Python
 License:        MIT

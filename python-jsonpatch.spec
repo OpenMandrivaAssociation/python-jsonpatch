@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:	1.26
-Release:	1
+Release:	2
 Summary:        Library to apply JSON patches according to RFC 6902
 Group:          Development/Python
 License:        MIT
@@ -28,5 +28,4 @@ Library to apply JSON Patches according to RFC 6902
 %files -n python-%{pypi_name}
 %{_bindir}/*
 %{python3_sitelib}/%{pypi_name}.py
-%{python3_sitelib}/__pycache__/*
 %{python3_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
